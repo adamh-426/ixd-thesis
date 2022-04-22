@@ -1,0 +1,15 @@
+<svg id="account_circle_black_24dp" xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #ddd;
+      }
+    </style>
+  </defs>
+  <path id="Path_3" data-name="Path 3" class="cls-1" d="M0,0H66V66H0Z"/>
+  <path id="Path_4" data-name="Path 4" class="cls-2" d="M29.5,2A27.5,27.5,0,1,0,57,29.5,27.51,27.51,0,0,0,29.5,2Zm0,8.25a8.25,8.25,0,1,1-8.25,8.25A8.239,8.239,0,0,1,29.5,10.25Zm0,39.05A19.8,19.8,0,0,1,13,40.445c.083-5.472,11-8.47,16.5-8.47,5.472,0,16.417,3,16.5,8.47A19.8,19.8,0,0,1,29.5,49.3Z" transform="translate(3.5 3.5)"/>
+</svg>

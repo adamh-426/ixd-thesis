@@ -1,0 +1,567 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    line-height: 1.6em;
+    font-family: 'HK Grotesk', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+h1 {
+    font-size: 4em;
+    line-height: 1em;
+
+}
+
+h2 {
+    font-size: 3em;
+    line-height: 1.5em;
+}
+
+h8 {
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+span {
+    color: #6C8FE0;
+}
+
+h3 {
+    font-size: 1.2em;
+    line-height: 1.9em;
+    letter-spacing: 1px;
+    margin: auto;
+    width: 60%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 200;
+}
+
+p5 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+h6 {
+    font-size: 1.2em;
+    line-height: 1.9em;
+    letter-spacing: 1px;
+    margin: auto;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h5 {
+    font-size: 50px;
+    font-family: 'HK Grotesk', sans-serif;
+    text-align: center;
+    line-height: 1.1em;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'HK Grotesk', sans-serif, 300;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    padding-left: 10px;
+    font-weight: 200;
+}
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+}
+
+#homepage {}
+
+.centered {
+    margin: auto;
+}
+
+.avatar {
+    text-align: center;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 290px;
+}
+
+.demo {
+    margin-right: 15px;
+    background-color: #6C8FE0;
+    font-size: 1.5em;
+    padding: 20px 90px 20px 90px;
+    border-radius: 10px;
+    color: #fff;
+    align-self: center;
+}
+
+.demo-secondary {
+    margin-right: 15px;
+    background-color: #eee;
+    font-size: 1.5em;
+    padding: 20px 90px 20px 90px;
+    border-radius: 10px;
+    color: #555;
+    align-self: center;
+}
+
+.demo-final {
+    background-color: #6c8fe0;
+    font-size: 1.5em;
+    padding: 20px 90px 20px 90px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.submit {
+    background-color: #6c8fe0;
+    font-size: 1.5em;
+    padding: 20px 90px 20px 90px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.rsp {
+    max-width: 100%;
+}
+
+.align-centered {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #6C8FE0;
+    float: right;
+}
+
+.buttons button {
+    padding: 20px;
+    color: #6c8fe0;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #ddd;
+}
+
+.buttons button:active {
+    background-color: #ccc;
+}
+
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+label {
+    color: #000;
+}
+
+input {
+    border: none;
+    padding: 10px;
+    background-color: #eee;
+    font-size: 20pt;
+    border-radius: 220px;
+    width: 600px;
+}
+
+textarea {
+    border: none;
+    padding: 10px;
+    background-color: #eee;
+    font-size: 20pt;
+    border-radius: 10px;
+    width: 600px;
+    height: 150px;
+    resize: none;
+    line-height: 1.6em;
+    font-family: 'HK Grotesk', sans-serif;
+}
+
+button img {
+    height: 30px;
+}
+
+.main-1 {
+    background-color: #ffffff;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.main-2 {
+    background-color: #cad9f0;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.logo {
+    padding: 20px;
+}
+
+.logo a {
+    cursor: pointer;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.featured {
+    height: 90vh;
+    background: url(../img/landing.png) center center no-repeat;
+    background-size: cover;
+    display: grid;
+}
+
+.featuredImg {
+    align-self: center;
+}
+
+.featuredImg img {
+    height: 500px;
+    border-radius: 10%;
+}
+
+.featuredGoals {
+    height: 90vh;
+    background: url(../img/landing-group.png) center center no-repeat;
+    background-size: cover;
+    display: grid;
+}
+
+.featuredTeam {
+    height: 90vh;
+    background: url(../img/landing-team.png) center center no-repeat;
+    background-size: cover;
+    display: grid;
+}
+
+.featuredContact {
+    height: 100vh;
+    background: url(../img/landing-contact.png) center center no-repeat;
+    background-size: cover;
+    display: grid;
+}
+
+.text {
+    padding: 100px;
+    line-height: 2em;
+}
+
+.featuredText {
+    color: #fff;
+    width: 90%;
+    padding: 20px;
+    align-self: center;
+    margin: 0 auto;
+    /*    margin: auto auto;*/
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.cell {
+    background-color: rgb(220, 220, 220);
+    height: 100px;
+}
+
+.container {
+    display: none;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.landing {
+    display: block;
+}
+
+.img-container {
+    float: left;
+    margin: auto;
+    width: 30%;
+    padding-left: 40px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.system {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.footer {
+    margin-bottom: 100px;
+}
+
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    right: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    /* Black fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/opacity */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 15%;
+    left: 25%;
+    width: 50%;
+    /* 100% width */
+    text-align: center;
+    /* Centered text/links */
+    margin-top: 30px;
+    /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+#onboarding {
+    padding: 50px 0 50px 0;
+    background: #fff;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+#onboarding label {
+    
+}
+
+#onboarding input {
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 25px;
+    }
+}
+
+/* default - small devices */
+[class*="col"] {
+    grid-column-end: span 12;
+    width: 100%;
+}
+
+/* below 600px typically tablet*/
+@media only screen and (max-width: 600px) {
+    .featured {
+        height: 100vh;
+        background: url(../img/landing-2.png) center center no-repeat;
+        background-size: cover;
+        display: grid;
+    }
+
+    .featuredGoals {
+        height: 180vh;
+        background: url(../img/landing-group-2.png) center center no-repeat;
+        background-size: cover;
+        display: grid;
+    }
+
+    .featuredTeam {
+        height: 120vh;
+        background: url(../img/landing-team-2.png) center center no-repeat;
+        background-size: cover;
+        display: grid;
+    }
+
+    .featuredContact {
+        height: 240vh;
+        background: url(../img/landing-contact-2.png) center center no-repeat;
+        background-size: cover;
+        display: grid;
+    }
+
+    .featuredText {
+        color: #fff;
+        width: 90%;
+        padding: 20px;
+        align-self: end;
+        margin: 0 auto;
+        /*    margin: auto auto;*/
+    }
+
+    .padded {
+        padding: 20px;
+    }
+
+    .sm1 {
+        grid-column-end: span 12;
+    }
+
+    .sm2 {
+        grid-column-end: span 6;
+    }
+
+    .sm3 {
+        grid-column-end: span 4;
+    }
+
+    .sm4 {
+        grid-column-end: span 3;
+    }
+
+    .sm6 {
+        grid-column-end: span 2;
+    }
+
+    .sm12 {
+        grid-column-end: span 1;
+    }
+}
+
+/* above 601px typically tablet*/
+@media only screen and (min-width: 601px) {
+    .padded {
+        padding: 20px;
+    }
+
+    .twothird {
+        grid-column-end: span 8;
+    }
+
+    .md1 {
+        grid-column-end: span 12;
+    }
+
+    .md2 {
+        grid-column-end: span 6;
+    }
+
+    .md3 {
+        grid-column-end: span 4;
+    }
+
+    .md4 {
+        grid-column-end: span 3;
+    }
+
+    .md6 {
+        grid-column-end: span 2;
+    }
+
+    .md12 {
+        grid-column-end: span 1;
+    }
+}
+
+/* above 1025px typically desktop*/
+@media only screen and (min-width: 1025px) {
+    .padded {
+        padding: 20px 200px;
+    }
+
+    .twothird {
+        grid-column-end: span 8;
+    }
+
+    .col1 {
+        grid-column-end: span 12;
+    }
+
+    .col2 {
+        grid-column-end: span 6;
+    }
+
+    .col3 {
+        grid-column-end: span 4;
+    }
+
+    .col4 {
+        grid-column-end: span 3;
+    }
+
+    .col6 {
+        grid-column-end: span 2;
+    }
+
+    .col12 {
+        grid-column-end: span 1;
+    }
+}
